@@ -2,13 +2,17 @@
   "name": "dodo",
   "version": "1.0.0",
   "description": "",
-  "main": "dodo.js",
+  "main": "index.js",
+  "bin": {
+    "dodo": "./bin/executable.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "openai": "^3.3.0"
+    "openai": "^3.3.0",
+    "@aux4/engine": "^1.0.16"
   }
 }

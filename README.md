@@ -11,7 +11,7 @@ alias dodo='node /full-path/dodo.js'
 
 2. Execute `dodo` without parameters (one time) - it will create new folder with some files
     * `~/.dodo/.config.json` - You should put openAi API key here
-    * `~/.dodo/commands.json` - commands that dodo understands
+    * `~/.dodo/defaultCommands.json` - defaultCommands that dodo understands
 
 3. Use it anywhere
 ```
