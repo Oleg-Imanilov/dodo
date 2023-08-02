@@ -1,0 +1,40 @@
+{
+  "profiles": [
+    {
+      "name": "main",
+      "commands": [
+        {
+          "name": "say",
+          "execute": [
+            "echo '${text}'"
+          ],
+          "help": {
+            "text": "say something",
+            "variables": [
+              {
+                "name": "text",
+                "text": "text to say"
+              }
+            ]
+          }
+        },
+        {
+          "name": "list-files",
+          "execute": [
+            "ls ${path}"
+          ],
+          "help": {
+            "text": "list files from a path",
+            "variables": [
+              {
+                "name": "path",
+                "text": "path to list files from",
+                "default": "."
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
